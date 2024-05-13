@@ -23,6 +23,6 @@ jobs:
       run: dotnet restore
 
     - name: Check vulnerable NuGet packages
-      uses: elmahio/github-check-vulnerable-nuget-packages-action@v1.2
+      uses: elmahio/github-check-vulnerable-nuget-packages-action@v1.3
     - name: Build
       run: dotnet build --configuration Release --no-restore
